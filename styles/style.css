@@ -1,0 +1,248 @@
+html {
+  font-family: "Poppins";
+}
+
+.landing {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 96px;
+}
+
+/* -------NAVIGATION--------- */
+.navi-bar {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  padding-top: 24px;
+}
+
+.navi-bar .icon {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.navi-bar .navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+.navi-bar .navigation .navigation-links {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navi-bar .navigation .log-in {
+  display: flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  color: #131313;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  border-radius: 12px;
+  background-color: #f5f5f5;
+  border: none;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.navi-bar .button {
+  display: none;
+}
+
+/* ------CONTENT-------- */
+.hero-section {
+  padding: 105px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* -------TITLE----------- */
+.hero-section .title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  gap: 24px;
+}
+
+.hero-section .title h1 {
+  max-width: 825px;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: -2px;
+}
+
+.hero-section .title h2 {
+  max-width: 610px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* ------BUTTONS-------- */
+
+.hero-section .buttons {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button {
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  border: none;
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.hero-section .buttons .start {
+  background: #4891ff;
+  color: white;
+}
+
+.hero-section .buttons .demo {
+  display: flex;
+  gap: 10px;
+}
+
+/* ---PHOTO-------- */
+.hero-section .photo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  column-gap: 24px;
+  margin-top: -130px;
+}
+
+.hero-section .photo img:nth-child(1) {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-section .photo img:nth-child(2) {
+  max-width: 100%;
+  height: auto;
+}
+
+/* -----------MAIN SECTION-------------------------------- */
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.features .features-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+.features .features-title h1 {
+  max-width: 835px;
+  color: #131316;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 58px;
+  letter-spacing: -1px;
+}
+
+.features .features-title h2 {
+  max-width: 620px;
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.features .block {
+  display: flex;
+  gap: 24px;
+}
+
+.features .dashboard .more {
+  flex-direction: column;
+}
+
+.features .dashboard .more .monitoring {
+  display: flex;
+  gap: 250px;
+}
+
+.features .dashboard .more p:nth-child(1),
+.features .dashboard .more p:nth-child(4),
+.features .dashboard .more p:nth-child(6) {
+  color: #131316;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.features .dashboard .more p:nth-child(2) {
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  padding: 8px 0 26px;
+}
+
+.features .dashboard .more p:nth-child(4),
+.features .dashboard .more p:nth-child(6) {
+   padding: 12px 0;
+}
+
+
+.features .block img:nth-child(1) {
+  max-width: 513px;
+}
+
+.features .blocks {
+  display: flex;
+  gap: 24px;
+}
+
+.features .blocks .description {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.features .blocks .description .title h3 {
+  color: #131316;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 43px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.features .blocks .description .title h5 {
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.features .blocks .description .more {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
