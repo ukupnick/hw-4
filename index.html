@@ -12,6 +12,9 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
       rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
     <!----------HW-4------------>
@@ -19,7 +22,8 @@
       <!---------HEADER----------->
       <header>
         <!------NAVIGATION-------------->
-        <section class="navi-bar">
+        <section class="fixed-navi">
+          <div class="navi-bar">
           <div class="icon">
             <p>Growth</p>
             <img src="accets/growth-line.svg" alt="Growth" />
@@ -34,9 +38,10 @@
             <button class="log-in">Log in</button>
           </nav>
 
-          <button class="button">
+          <button class="more">
             <img src="accets/log-in-icon.svg" alt="Log-in-icon" />
           </button>
+          </div>
         </section>
         <!-----------CONTENT--------------->
         <section class="hero-section">
@@ -92,11 +97,11 @@
                   <img src="accets/arrow.svg" alt="Arrow" />
                 </div>
                 <p>View live data and performance metrics.</p>
-                <img src="accets/line.png" alt="Line">
+                <img src="accets/line.png" alt="Line" />
                 <p>Data visualization</p>
-                <img src="accets/line2.png" alt="Line 2">
+                <img src="accets/line2.png" alt="Line 2" />
                 <p>Alerts and notifications</p>
-                <img src="accets/line2.png" alt="Line 2">
+                <img src="accets/line2.png" alt="Line 2" />
               </div>
             </div>
             <img src="accets/sales.jpg" alt="" />
@@ -104,7 +109,7 @@
 
           <!-- ---Business communications----------- -->
           <div class="blocks">
-            <img src="accets/team-call.jpg" alt="" />
+            <img class="team-call-image" src="accets/team-call.jpg" alt="" />
             <div class="description">
               <div class="title">
                 <h3>Business communications</h3>
@@ -142,7 +147,7 @@
 
           <!-- ---Boost productivity and efficiency----------- -->
           <div class="blocks">
-            <img src="accets/to-do-list.jpg" alt="" />
+            <img class="to-do-image" src="accets/to-do-list.jpg" alt="" />
             <div class="description">
               <div class="title">
                 <h3>Boost productivity and efficiency</h3>
@@ -159,10 +164,242 @@
             </div>
           </div>
         </section>
+
+        <!----------HW-5------------>
+        <!-- --VIDEO-SECTION------------ -->
+        <section class="video-section">
+          <!-- ----------VIDEO------------------ -->
+          <div class="video">
+            <h1>See how it works and get started in less than 2 minutes</h1>
+            <img class="video-image" src="accets/video.jpg" alt="video preview" />
+            <img class="play-button" src="accets/play-button.svg" alt="Play" />
+            <button class="video-section_button button">Get started</button>
+
+            <img class="line" src="accets/line3.png" alt="Line" />
+          </div>
+
+          <!-- -------Comment Block-------------------- -->
+          <div class="comments">
+            <h2>
+              Don't just take our word for it, see the success stories from businesses
+              just like yours.
+            </h2>
+            <div class="comments-blocks">
+              <div class="comment1">
+                <p class="comment-description">
+                  “Our business has seen a significant increase in productivity since we
+                  started using the Growth app.”
+                </p>
+                <div class="autor">
+                  <p>Katherine Smith</p>
+                  <p class="company">Capodopera</p>
+                </div>
+              </div>
+
+              <div class="comment1">
+                <p class="comment-description">
+                  “As a small business owner, it's important to have a tool that can help
+                  me keep track of everything. The Growth app has been a lifesaver for me,
+                  allowing me to manage my contacts, schedule appointments, and track
+                  progress all in one place..”
+                </p>
+                <div class="autor">
+                  <p>Jonathan Lee</p>
+                  <p class="company">Red Bolt</p>
+                </div>
+              </div>
+
+              <div class="comment1">
+                <p class="comment-description">
+                  “The dashboards and reporting feature has provided valuable insights
+                  into our performance and helped us make data-driven decisions. It's a
+                  game changer for us.”
+                </p>
+                <div class="autor">
+                  <p>David Wilson</p>
+                  <p class="company">Slide</p>
+                </div>
+              </div>
+
+              <div class="comment1">
+                <p class="comment-description">
+                  “Our business has seen a significant increase in productivity since we
+                  started using the Growth app.”
+                </p>
+                <div class="autor">
+                  <p>Katherine Smith</p>
+                  <p class="company">Capodopera</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- -----------HW-6------------------- -->
+        <!-- ----------PRICING------------------- -->
+        <section class="pricing">
+          <!-- ------Title---------- -->
+          <div class="pricing__title">
+            <h1>Pricing</h1>
+            <h5>
+              Start free and scale while you grow. No hidden fees. Unlimited users for
+              free.
+            </h5>
+          </div>
+          <!-- ------Cards---------- -->
+          <div class="pricing__card">
+            <div class="card pricing_card_simple">
+              <div class="card_header">
+                <h3 class="title">Simple</h3>
+                <h4>
+                  Keep track of your contacts, gain valuable insights, analyse live data
+                  and performance metrics.
+                </h4>
+                <div class="price">
+                  <h3>Free</h3>
+                  <p>* No credit card required</p>
+                </div>
+                <img src="accets/price-line.png" alt="Line" />
+              </div>
+              <div class="card_description">
+                <div class="item">
+                  <img src="accets/check.svg" alt="Check icon" />
+                  <p>Real-time monitoring</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check.svg" alt="Check icon" />
+                  <p>Track key performance indicators</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check.svg" alt="Check icon" />
+                  <p>Schedule appointments</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check.svg" alt="Check icon" />
+                  <p>Organize, delegate and keep track of tasks</p>
+                </div>
+              </div>
+              <button class="card_button button">Get started</button>
+            </div>
+
+            <div class="card pricing_card_premium">
+              <div class="card_header">
+                <h3 class="title">Premium</h3>
+                <h4>
+                  Keep track of your contacts, gain valuable insights, analyse live data
+                  and performance metrics.
+                </h4>
+                <div class="price">
+                  <h3>$49</h3>
+                  <p>/month</p>
+                </div>
+                <img src="accets/price-line.png" alt="Line" />
+              </div>
+              <div class="card_description">
+                <p>Everything from the free plan plus:</p>
+                <div class="item">
+                  <img src="accets/check-black.svg" alt="Check icon" />
+                  <p>Data-driven decisions</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check-black.svg" alt="Check icon" />
+                  <p>Data visualisation</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check-black.svg" alt="Check icon" />
+                  <p>Schedule appointments</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check-black.svg" alt="Check icon" />
+                  <p>Store and organise contact information</p>
+                </div>
+
+                <div class="item">
+                  <img src="accets/check-black.svg" alt="Check icon" />
+                  <p>
+                    Teal-time communication tools for messaging and video conferencing
+                  </p>
+                </div>
+              </div>
+              <button class="card_button button">Get started</button>
+            </div>
+          </div>
+          <h5>
+            All prices are in USD and charged per month with applicable taxes added at
+            checkout.
+          </h5>
+        </section>
       </main>
 
       <!-- -------FOOTER------------------------- -->
-      <footer></footer>
+      <footer class="footer">
+        <div class="icon">
+          <p>Growth</p>
+          <img src="accets/growth-line.svg" alt="Growth" />
+        </div>
+
+        <!-- -----Info-section----------------------- -->
+        <div class="info">
+          <form class="form-container">
+            <header>
+              <h2 class="title">Subscribe to newsletter</h2>
+              <h3 class="description">
+                Subscribe now to receive tips on how to take your business to the next
+                level.
+              </h3>
+            </header>
+
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="email_input"
+                name="email"
+                placeholder="Enter your email" />
+              <button class="subscribe-button">Subscribe</button>
+            </div>
+          </form>
+
+          <nav class="navigation">
+            <div>
+              <p>Company</p>
+              <ul class="navigation-links">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Our Process</a></li>
+                <li><a href="#">Join our team</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <p>Resources</p>
+              <ul class="navigation-links">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Recent Projects</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <p>Contact</p>
+              <ul class="navigation-links">
+                <li><a href="#">hello@growthapp.com</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <!-- ------Social Networks---------------------------------- -->
+        <div class="social-networks">
+          <img src="accets/Linkedin.svg" alt="Linkedin icon" />
+          <img src="accets/Twitter.svg" alt="Twitter icon" />
+        </div>
+
+        <p class="rights">© 2023 Growth. All rights reserved</p>
+      </footer>
     </div>
   </body>
 </html>
