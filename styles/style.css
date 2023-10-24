@@ -17,6 +17,7 @@ html {
 }
 
 /* -------NAVIGATION--------- */
+
 .fixed-navi {
   position: fixed;
   top: 0;
@@ -26,12 +27,13 @@ html {
 }
 
 .navi-bar {
-  display: flex;
+  max-width: 1440px;
   justify-content: space-between;
+  display: flex;
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
-  padding-top: 24px;
+  padding: 24px 96px 0;
   background-color: rgba(255, 255, 255, 0.947);
 }
 
@@ -80,6 +82,10 @@ html {
 }
 
 @media (max-width: 700px) {
+  .fixed-navi {
+    width: 100%;
+    padding: 0;
+  }
   .navi-bar {
     font-size: 28px;
     font-weight: 600;
@@ -107,7 +113,7 @@ html {
 
 /* ------CONTENT-------- */
 .hero-section {
-  padding: 105px 0;
+  padding: 105px 96px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -230,11 +236,16 @@ html {
     gap: 17px;
     margin-top: 20px;
   }
+
+  .hero-section .photo img:nth-child(2) {
+    margin-top: 0px;
+  }
 }
 /* -----------MAIN SECTION-------------------------------- */
 .features {
   display: flex;
   flex-direction: column;
+  padding: 0 96px;
 }
 
 /* <!-- ----TITLE---------- --> */
@@ -652,7 +663,7 @@ html {
 }
 
 @media (max-width: 700px) {
-  .pricing .pricing_card {
+  .pricing .pricing__card {
     flex-direction: column;
     gap: 24px;
   }
